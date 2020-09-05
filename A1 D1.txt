@@ -1,0 +1,63 @@
+# **********************************************************************************************************************
+# STRING
+str="pheobe is a good singer"
+print(str)
+print(len(str))
+print(str.capitalize())
+print(str.upper())
+print(str.count("o"))
+print(str.count("p"))
+print(str.count("g"))
+print(str[4:23])
+print(str[0:13])
+print(str[0:24:2])
+
+
+
+# **********************************************************************************************************************
+# TUPLE
+tu=("nik","rik","pik","vik",("li","si","ki"))
+print(tu[0:3])
+print(tu[0:])
+print(tu[:4])
+print(tu[4][2])
+print(tu[4][0:3])
+
+# **********************************************************************************************************************
+# SET
+se={1,2,3,4,5,6}
+print(se)
+se.add(66)
+print(se)
+print(se.intersection({2,4,5,77,55,66}))
+print(se.union({2,4,5,77,55,66}))
+se.remove(5)
+print(se)
+
+# **********************************************************************************************************************
+# DICTIONERY
+dic={"choclate":"sweet","sour":"lemon","spicy":"chicken wings"}
+print(dic)
+print(dic.get("sour"))
+dic.update({"bitter":"chips"})
+print(dic)
+print(dic.keys())
+print(dic.popitem())
+print(dic.items())
+print(dic.clear())
+
+# **********************************************************************************************************************
+# LIST
+li=[1,2,3,7,99,77,44]
+print(li)
+print(len(li))
+li.reverse()
+print(li)
+li.append(56)
+print(li)
+li.insert(3,58)
+print(li)
+li.pop()
+print(li)
+li.remove(3)
+print(li)
